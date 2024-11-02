@@ -1,9 +1,9 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 26/09/2016 00:56
-  	*/
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 26/09/2016 00:56
+    */
 
-@font-face {
+    @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -21,15 +21,22 @@
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
-}
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
 
-.flaticon-amazon-logo:before { content: "\f100"; }
+    .flaticon-amazon-logo:before { content: "\f100"; }
 .flaticon-ambulance:before { content: "\f101"; }
 .flaticon-android:before { content: "\f102"; }
 .flaticon-apple:before { content: "\f103"; }
@@ -77,3 +84,52 @@ margin-left: 20px;
 .flaticon-windows:before { content: "\f12d"; }
 .flaticon-wordpress-logo:before { content: "\f12e"; }
 .flaticon-world-wide-web:before { content: "\f12f"; }
+    
+    $font-Flaticon-amazon-logo: "\f100";
+    $font-Flaticon-ambulance: "\f101";
+    $font-Flaticon-android: "\f102";
+    $font-Flaticon-apple: "\f103";
+    $font-Flaticon-bathtub: "\f104";
+    $font-Flaticon-binoculars: "\f105";
+    $font-Flaticon-briefcase: "\f106";
+    $font-Flaticon-calendar: "\f107";
+    $font-Flaticon-cer-file-format: "\f108";
+    $font-Flaticon-cloud-computing: "\f109";
+    $font-Flaticon-cloud-computing-1: "\f10a";
+    $font-Flaticon-coding: "\f10b";
+    $font-Flaticon-coupon: "\f10c";
+    $font-Flaticon-cup: "\f10d";
+    $font-Flaticon-customer-service: "\f10e";
+    $font-Flaticon-devices: "\f10f";
+    $font-Flaticon-domain-registration: "\f110";
+    $font-Flaticon-download: "\f111";
+    $font-Flaticon-family-room: "\f112";
+    $font-Flaticon-first-aid-kit: "\f113";
+    $font-Flaticon-folder: "\f114";
+    $font-Flaticon-full-bed: "\f115";
+    $font-Flaticon-github: "\f116";
+    $font-Flaticon-happy: "\f117";
+    $font-Flaticon-hosting: "\f118";
+    $font-Flaticon-house: "\f119";
+    $font-Flaticon-idea: "\f11a";
+    $font-Flaticon-lifesaver-security-sportive-tool: "\f11b";
+    $font-Flaticon-line-graph: "\f11c";
+    $font-Flaticon-list: "\f11d";
+    $font-Flaticon-locked: "\f11e";
+    $font-Flaticon-mail: "\f11f";
+    $font-Flaticon-money: "\f120";
+    $font-Flaticon-new-file: "\f121";
+    $font-Flaticon-padlock: "\f122";
+    $font-Flaticon-pantone: "\f123";
+    $font-Flaticon-play-button: "\f124";
+    $font-Flaticon-price-tag: "\f125";
+    $font-Flaticon-school-bus: "\f126";
+    $font-Flaticon-search: "\f127";
+    $font-Flaticon-server: "\f128";
+    $font-Flaticon-stopwatch: "\f129";
+    $font-Flaticon-support: "\f12a";
+    $font-Flaticon-swimming-pool: "\f12b";
+    $font-Flaticon-unlink: "\f12c";
+    $font-Flaticon-windows: "\f12d";
+    $font-Flaticon-wordpress-logo: "\f12e";
+    $font-Flaticon-world-wide-web: "\f12f";
